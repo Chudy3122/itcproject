@@ -2,7 +2,7 @@ import { useState, useEffect, useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
 import MainLayout from '../components/layout/MainLayout';
 import {
-  Plus, Search, ShoppingCart, Clock, CheckCircle2, XCircle,
+  Plus, Search, ShoppingCart, Clock,
   ChevronRight, Loader2, Calendar, Building2, ChevronDown,
 } from 'lucide-react';
 import * as orderApi from '../api/order.api';
