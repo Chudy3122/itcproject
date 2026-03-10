@@ -30,7 +30,6 @@ import {
   Target,
   TrendingUp,
   ShoppingCart,
-  MessageSquare,
   BookUser,
   PieChart,
 } from 'lucide-react';
@@ -144,7 +143,6 @@ const MainLayout: React.FC<MainLayoutProps> = ({ children, title }) => {
     { type: 'divider' },
     { type: 'header', name: t('nav.communication') },
     { name: t('nav.meetings'), href: '/meeting', icon: Video },
-    { name: t('nav.chat'), href: '/chat', icon: MessageSquare },
 
     { type: 'divider' },
     { type: 'header', name: t('nav.workTime') },
