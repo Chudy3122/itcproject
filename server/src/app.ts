@@ -29,6 +29,8 @@ const allowedOrigins = [
   process.env.CLIENT_URL,
   'http://localhost:5173',
   'http://localhost:3000',
+  'https://itcproject.pl',
+  'https://www.itcproject.pl',
 ].filter(Boolean) as string[];
 
 app.use(
